@@ -1,0 +1,13 @@
+name: Minha Primeira Action
+
+on: 
+  push:
+
+jobs:
+  mensagem:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Mostrar Mensagem
+        run: echo "Olá! O Github Actions está funcionando!"
+  
